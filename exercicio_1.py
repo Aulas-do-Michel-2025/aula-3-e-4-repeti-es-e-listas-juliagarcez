@@ -34,4 +34,4 @@ while i > 0:
     fatorial = fatorial * i
     i = i -1
 
-print (f"O fatorial do {numero} é {fatorial}")
+print (f"O fatorial de {numero} é {fatorial}.")
