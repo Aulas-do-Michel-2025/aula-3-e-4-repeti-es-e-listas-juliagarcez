@@ -49,8 +49,8 @@ for i in range(len(lista_de_organismos)):
         soma= soma + leitura
         media = soma/ len(organismo)
 
-if media > maior_media:
-    maior_media = media
-    posicao_maior_media = i
+    if media > maior_media:
+        maior_media = media
+        posicao_maior_media = i
 
 print (f"O organismo com maior média é o da posição {posicao_maior_media} da lista.")
